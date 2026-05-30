@@ -1,4 +1,4 @@
-let cards = [{ word: "Apple", meaning: "سیب" }, { word: "Book", meaning: "کتاب" }];
+let cards = [{ word: "بسم الله الرحمن الرحیم", meaning: "به نام خداوند بخشنده مهربان" }, { word: "لَعَلَّ", meaning: "شاید" }, { word: "اصطَفاکِ", meaning: "برگزید" }, { word: "مَکَّنّا", meaning: "جای دادیم" }];
 let currentIndex = 0;
 let score = 0;
 
