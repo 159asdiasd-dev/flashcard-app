@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اپلیکیشن فلش‌کارت</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>فلش‌کارت هوشمند</h1>
+        <div id="card" class="card">
+            <h2 id="word">Apple</h2>
+            <p id="meaning" class="hidden">سیب</p>
+        </div>
+        <button onclick="toggleMeaning()">نمایش/مخفی کردن معنی</button>
+        <div class="nav-btns">
+            <button onclick="prevCard()">قبلی</button>
+            <button onclick="nextCard()">بعدی</button>
+        </div>
+        <hr>
+        <div class="admin">
+            <input type="text" id="newWord" placeholder="کلمه">
+            <input type="text" id="newMeaning" placeholder="معنی">
+            <button onclick="addCard()">افزودن کارت</button>
+            <button onclick="deleteCard()" style="background:red">حذف کارت</button>
+        </div>
+        <div class="quiz">
+            <button onclick="startQuiz()">شروع آزمون</button>
+            <p id="score">امتیاز: 0</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
